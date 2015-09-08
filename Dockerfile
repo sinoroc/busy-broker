@@ -19,5 +19,7 @@ CMD ["rabbitmq-server"]
 
 EXPOSE 5672
 
+USER rabbitmq
+
 
 # EOF
